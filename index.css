@@ -1,0 +1,174 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#aa {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: Dialog;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+#ab {
+    margin: 0 auto;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Dialog;
+    vertical-align: middle;
+    font-size: 16px;
+    height: auto;
+}
+
+    #ab tr td:nth-child(1) {
+        width: 45px;
+    }
+
+    #ab tr td:nth-child(2) {
+        width: 80px;
+    }
+
+    #ab tr td:nth-child(3) {
+        width: 70px;
+    }
+
+    #ab tr td:nth-child(4) {
+        width: 100px;
+    }
+
+    #ab tr td:nth-child(5) {
+        width: 150px;
+    }
+
+    #ab tr td:nth-child(6) {
+        width: 240px;
+    }
+
+    #ab tr td:nth-child(7) {
+        width: 300px;
+    }
+
+    #ab tr td:nth-child(8) {
+        width: 200px;
+    }
+
+    #ab tr td:nth-child(9) {
+        width: 240px;
+    }
+
+    #ab tr td:nth-child(10) {
+        width: 200px;
+    }
+
+    #ab tr td:nth-child(11) {
+        width: 100px;
+    }
+
+    #ab tr td:nth-child(12) {
+        width: 80px;
+    }
+
+    #ab tr td:nth-child(13) {
+        width: 100px;
+    }
+
+    #ab tr td:nth-child(14) {
+        width: 80px;
+    }
+
+    #ab tr td:nth-child(15) {
+        width: 80px;
+    }
+
+#num {
+    text-align: right;
+}
+
+.head td {
+    position: sticky;
+    top: 40px;
+    background-color: darksalmon;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+.little {
+    font-weight: bold;
+    height: 26px;
+    background-color: gainsboro;
+}
+
+.head td:hover {
+    color: white;
+    background-color: rgb(159, 227, 248);
+}
+
+.total {
+    height: 28px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: darkgray;
+    color: white;
+}
+
+.bo_box {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    width: 2400px;
+}
+
+.btn {
+    text-align: right;
+}
+
+input {
+    width: 50px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+}
+
+    input:hover {
+        background-color: #409EFF;
+        color: white;
+    }
+
+#box {
+    width: 70px;
+    height: 50px;
+    background-color: darksalmon;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25%;
+}
